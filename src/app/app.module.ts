@@ -3,31 +3,35 @@ import { ErrorHandler, NgModule } from '@angular/core';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 
 import { MyApp } from './app.component';
-import { HomePage } from '../pages/home/home';
-import { ListPage } from '../pages/list/list';
+
+
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+import {ProgressBarComponent} from "../components/progress-bar/progress-bar";
+import {AuthService} from "./auth.service";
+
 
 @NgModule({
   declarations: [
     MyApp,
-    HomePage,
-    ListPage
+
+
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(MyApp),
+    IonicModule.forRoot(MyApp, {backButtonText: 'Terug', backButtonIcon: 'ios-arrow-back'}),
   ],
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    HomePage,
-    ListPage
+
   ],
   providers: [
     StatusBar,
     SplashScreen,
+    ProgressBarComponent,
+    AuthService,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })

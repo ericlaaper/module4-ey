@@ -1,0 +1,69 @@
+<ion-header>
+  <ion-navbar color="danger" align="center">
+    <ion-title>Login</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+
+<ion-content class="bg-image"no-padding>
+<div class="sign">
+
+  <div class="appForm">
+    <div class="spacer" style="width: 320px; height: 50px;"></div>
+
+
+
+   <ion-grid>
+     <ion-row>
+       <ion-col col-3></ion-col>
+       <ion-col col-6>
+         <img src="assets/imgs/enkelletters.png" width="125%">
+
+
+       </ion-col>
+
+     </ion-row>
+
+
+   </ion-grid>
+
+
+
+
+    <form [formGroup] ="loginform" (ngSubmit)="onSubmit(loginform.value)">
+      <ion-list no-lines>
+          <ion-item>
+            <ion-icon item-left name="md-mail"></ion-icon>
+            <ion-input type="text" placeholder="Gebruikersnaam" formControlName="username" [class.invalid]="!loginform.controls.username.valid && (loginform.controls.username.dirty || submitAttempt)"></ion-input>
+          </ion-item>
+
+          <ion-item>
+            <ion-icon item-left name="md-lock"></ion-icon>
+            <ion-input type="text" placeholder="Password" formControlName="password" [class.invalid]="!loginform.controls.password.valid && (loginform.controls.password.dirty || submitAttempt)"></ion-input>
+          </ion-item>
+      </ion-list>
+          <p ion-text color="light" text-center>Gebruikersnaam is opgegeven e-mail adres</p>
+
+
+  <ion-grid no-padding>
+    <ion-row padding-top="0px">
+      <ion-col col-3></ion-col>
+      <ion-col col-6>
+        <button ion-button color="dark" block round medium [disabled]="!loginform.valid" type="submit" >Login</button>
+      </ion-col>
+    </ion-row>
+    <div class="spacer" style="width: 320px; height: 10px;"></div>
+
+
+
+
+  </ion-grid>
+    </form>
+
+</div>
+
+
+</div>
+</ion-content>
+
