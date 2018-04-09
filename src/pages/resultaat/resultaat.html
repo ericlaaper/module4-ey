@@ -1,0 +1,455 @@
+<!--
+  Generated template for the ResultaatPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar color="danger" align="center">
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Resultaat</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content>
+<div padding>
+
+  <p>In deze module staat het perspectief eigenarenstrategie centraal. De module bestaat uit 8 onderdelen:</p>
+  <ul>
+    <li>Aandeelhouders in het familiebedrijf</li>
+    <li>Wanneer familiair aandeelhouder worden</li>
+    <li>Familiair aandeelhouderschap behouden en doorgeven</li>
+    <li>Zeggenschap familiaire aandeelhouders</li>
+    <li>Procedure aan/verkooptransacties</li>
+    <li>Lock-up familiaire aandeelhouders</li>
+    <li>Niet-familiaire aandeelhouders</li>
+    <li>Financiële informatie</li>
+
+  </ul>
+  <p>Onderstaand treft u een verkorte weergave aan van de vragen per onderdeel en uw mening c.q. opmerkingen bij deze vragen. Uw mening is door ons vastgelegd en wordt gebruikt als input voor het familieoverleg.</p>
+  <p>Mocht u nog wijzigingen door willen voeren dan kan u de vragenlijst opnieuw openen. U kunt dan wijzigingen doorvoeren.</p>
+
+
+  <p>Hebt u vragen of opmerkingen wij staan u graag terzijde.</p>
+
+  <h2>Aandeelhouders in het familiebedrijf</h2>
+
+  <p>Wij hebben u de volgende stellingen voorgelegd:</p>
+
+  <ion-grid>
+    <ion-row>
+      <ion-col col-auto>Stelling 1</ion-col>
+      <ion-col>Ik vind het belangrijk dat alle familieleden aandeelhouder kunnen worden.</ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col col-auto>Stelling 2</ion-col>
+      <ion-col>Ik vind het belangrijk dat alleen familieleden die in het familiebedrijf werken aandeelhouder kunnen worden.</ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col col-auto>Stelling 3</ion-col>
+      <ion-col>Ik vind het belangrijk dat alleen familieleden die in het familiebedrijf actief zijn als managementlid of bestuurder aandeelhouder mogen worden.</ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col col-auto>Stelling 4</ion-col>
+      <ion-col>Ik vind het belangrijk dat niet-familiaire medewerkers en managementleden met een sleutelpositie in het familiebedrijf, aandeelhouder kunnen worden.</ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col col-auto>Stelling 5</ion-col>
+      <ion-col>Ik vind het belangrijk dat, indien het voor groei/expansie noodzakelijk is, externe verschaffers van risicodragend kapitaal zoals private equity of participatiemaatschappijen een aandelenbelang kunnen krijgen.</ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col col-auto>Stelling 6</ion-col>
+      <ion-col>Ik vind het belangrijk dat het familiebedrijf de betrokkenheid en loyaliteit van medewerkers vergroot door hen te laten delen in de resultaten.</ion-col>
+    </ion-row>
+
+  </ion-grid>
+  <p>In onderstaande grafiek staat uw mening weergegeven over deze stellingen. -100 betekent dat u het volledig oneens bent met de stelling, 100 betekent dat u het volledig eens bent met de stelling. </p>
+
+  <div style="display: block">
+    <canvas #barCanvas1></canvas>
+  </div>
+  <p>U plaatste de volgende opmerkingen bij de stellingen.</p>
+  <ion-grid>
+    <ion-row>
+      <ion-col col-auto>Stelling 1</ion-col>
+      <ion-col>{{this.m4p1tekst}}</ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col col-auto>Stelling 2</ion-col>
+      <ion-col>{{this.m4p2tekst}}</ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col col-auto>Stelling 3</ion-col>
+      <ion-col>{{this.m4p3tekst}}</ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col col-auto>Stelling 4</ion-col>
+      <ion-col>{{this.m4p4tekst}}</ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col col-auto>Stelling 5</ion-col>
+      <ion-col>{{this.m4p5tekst}}</ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col col-auto>Stelling 6</ion-col>
+      <ion-col>{{this.m4p6tekst}}</ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <h2>Wanneer familiair aandeelhouder worden</h2>
+
+  <p>Wij hebben u de volgende stellingen voorgelegd:</p>
+
+  <ion-grid>
+    <ion-row>
+      <ion-col col-auto>Stelling 1</ion-col>
+      <ion-col>Ik vind het belangrijk dat alle familieleden in staat moeten worden gesteld om aandeelhouder te worden door ze op enig moment te verwerven.</ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col col-auto>Stelling 2</ion-col>
+      <ion-col>Ik vind het belangrijk dat familieleden die de intentie uitspreken een actieve rol te gaan vervullen in het familiebedrijf, op dat moment in staat moeten worden gesteld om aandeelhouder te worden.</ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col col-auto>Stelling 3</ion-col>
+      <ion-col>Ik vind het belangrijk dat een familielid die komt werken in het familiebedrijf een aanbod krijgt om aandeelhouder te worden.</ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col col-auto>Stelling 4</ion-col>
+      <ion-col>Ik vind het belangrijk dat alleen familieleden die een actieve rol vervullen als managementlid of bestuurder, op dat moment aandelen in het familiebedrijf kunnen verwerven.</ion-col>
+    </ion-row>
+
+
+  </ion-grid>
+  <p>In onderstaande grafiek staat uw mening weergegeven over deze stellingen. -100 betekent dat u het volledig oneens bent met de stelling, 100 betekent dat u het volledig eens bent met de stelling. </p>
+
+  <div style="display: block">
+    <canvas #barCanvas2></canvas>
+  </div>
+  <p>U plaatste de volgende opmerkingen bij de stellingen.</p>
+  <ion-grid>
+    <ion-row>
+      <ion-col col-auto>Stelling 1</ion-col>
+      <ion-col>{{this.m4p7tekst}}</ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col col-auto>Stelling 2</ion-col>
+      <ion-col>{{this.m4p8tekst}}</ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col col-auto>Stelling 3</ion-col>
+      <ion-col>{{this.m4p9tekst}}</ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col col-auto>Stelling 4</ion-col>
+      <ion-col>{{this.m4p10tekst}}</ion-col>
+    </ion-row>
+
+  </ion-grid>
+
+  <h2>Familiair aandeelhouderschap behouden en doorgeven</h2>
+
+  <p>Wij hebben u de volgende stellingen voorgelegd:</p>
+
+  <ion-grid>
+    <ion-row>
+      <ion-col col-auto>Stelling 1</ion-col>
+      <ion-col>Ik vind het belangrijk dat een familiair aandeelhouder zijn aandelen dient aan te bieden aan het familiebedrijf als zijn actieve rol in het familiebedrijf stopt.</ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col col-auto>Stelling 2</ion-col>
+      <ion-col>Ik vind het belangrijk dat een familiar aandeelhouder alleen aandelen kan schenken en laten vererven aan de eigen (klein)kinderen.</ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col col-auto>Stelling 3</ion-col>
+      <ion-col>Ik vind het belangrijk dat een familiair aandeelhouder aandelen kan laten vererven aan zijn eigen (klein)kinderen en niet bij leven kan schenken.</ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col col-auto>Stelling 4</ion-col>
+      <ion-col>Ik vind het belangrijk dat bij overlijden van een familiair aandeelhouder de aandelen dienen te worden aangeboden aan het familiebedrijf.</ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col col-auto>Stelling 5</ion-col>
+      <ion-col>Ik vind het belangrijk dat bij een echtscheiding of verbreken van een geregistreerd partnerschap de aandelen in handen blijven van de betreffende familair aandeelhouder en niet terecht komen bij de partner.</ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col col-auto>Stelling 6</ion-col>
+      <ion-col>Ik vind het belangrijk dat bij een echtscheiding of verbreken van een geregistreerd partnerschap de aandelen in handen van niet-familiair aandeelhouder (partner) aangeboden dienen te worden aan het familiebedrijf.</ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col col-auto>Stelling 7</ion-col>
+      <ion-col>Ik vind het belangrijk dat kinderen (en daaruit voortkomende staken in de familie) allemaal een even groot aandelenbelang hebben in het familiebedrijf.</ion-col>
+    </ion-row>
+
+  </ion-grid>
+  <p>In onderstaande grafiek staat uw mening weergegeven over deze stellingen. -100 betekent dat u het volledig oneens bent met de stelling, 100 betekent dat u het volledig eens bent met de stelling. </p>
+
+  <div style="display: block">
+    <canvas #barCanvas3></canvas>
+  </div>
+  <p>U plaatste de volgende opmerkingen bij de stellingen.</p>
+  <ion-grid>
+    <ion-row>
+      <ion-col col-auto>Stelling 1</ion-col>
+      <ion-col>{{this.m4p11tekst}}</ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col col-auto>Stelling 2</ion-col>
+      <ion-col>{{this.m4p12tekst}}</ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col col-auto>Stelling 3</ion-col>
+      <ion-col>{{this.m4p13tekst}}</ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col col-auto>Stelling 4</ion-col>
+      <ion-col>{{this.m4p14tekst}}</ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col col-auto>Stelling 5</ion-col>
+      <ion-col>{{this.m4p15tekst}}</ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col col-auto>Stelling 6</ion-col>
+      <ion-col>{{this.m4p16tekst}}</ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col col-auto>Stelling 7</ion-col>
+      <ion-col>{{this.m4p17tekst}}</ion-col>
+    </ion-row>
+  </ion-grid>
+
+
+
+
+  <h2>Zeggenschap familiaire aandeelhouders</h2>
+
+  <ion-grid>
+    <ion-row>
+      <ion-col col-auto>Stelling 1</ion-col>
+      <ion-col>Ik vind het belangrijk dat alle familiaire aandeelhouders zeggenschap hebben in het familiebedrijf.</ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col col-auto>Stelling 2</ion-col>
+      <ion-col>Ik vind het belangrijk dat alleen familiaire aandeelhouders die actief zijn in het familiebedrijf zeggenschap hebben.</ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col col-auto>Stelling 3</ion-col>
+      <ion-col>Ik vind het belangrijk dat alleen familiaire aandeelhouders die een actieve rol vervullen als managementlid of bestuurder zeggenschap hebben in het familiebedrijf.</ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col col-auto>Stelling 4</ion-col>
+      <ion-col>Ik vind het belangrijk dat alle kinderen (en daaruit voortkomende staken in de familie) allemaal evenveel zeggenschap hebben in het familiebedrijf.</ion-col>
+    </ion-row>
+
+
+  </ion-grid>
+  <p>In onderstaande grafiek staat uw mening weergegeven over deze stellingen. -100 betekent dat u het volledig oneens bent met de stelling, 100 betekent dat u het volledig eens bent met de stelling. </p>
+
+  <div style="display: block">
+    <canvas #barCanvas4></canvas>
+  </div>
+  <p>U plaatste de volgende opmerkingen bij de stellingen.</p>
+  <ion-grid>
+    <ion-row>
+      <ion-col col-auto>Stelling 1</ion-col>
+      <ion-col>{{this.m4p18tekst}}</ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col col-auto>Stelling 2</ion-col>
+      <ion-col>{{this.m4p19tekst}}</ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col col-auto>Stelling 3</ion-col>
+      <ion-col>{{this.m4p20tekst}}</ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col col-auto>Stelling 4</ion-col>
+      <ion-col>{{this.m4p21tekst}}</ion-col>
+    </ion-row>
+
+  </ion-grid>
+
+  <h2>Procedure aan/verkooptransacties</h2>
+
+  <p>Wij hebben u de volgende stellingen voorgelegd:</p>
+
+  <ion-grid>
+    <ion-row>
+      <ion-col col-auto>Stelling 1</ion-col>
+      <ion-col>Ik vind het belangrijk dat bij aan- en verkooptransacties sprake is van een faire prijs op basis van een extern opgesteld waarderingsrapport.</ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col col-auto>Stelling 2</ion-col>
+      <ion-col>Ik vind het belangrijk dat een toetredend familiair aandeelhouder kan rekenen op financiering vanuit het familiebedrijf, zodat maximaal 50% van de koopsom extern gefinancierd dient te worden.</ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col col-auto>Stelling 3</ion-col>
+      <ion-col>Ik vind het belangrijk dat een uittredend familiair aandeelhouder direct kan beschikken over de volledige opbrengst van de verkoop.</ion-col>
+    </ion-row>
+
+
+  </ion-grid>
+  <p>In onderstaande grafiek staat uw mening weergegeven over deze stellingen. -100 betekent dat u het volledig oneens bent met de stelling, 100 betekent dat u het volledig eens bent met de stelling. </p>
+
+  <div style="display: block">
+    <canvas #barCanvas5></canvas>
+  </div>
+  <p>U plaatste de volgende opmerkingen bij de stellingen.</p>
+  <ion-grid>
+    <ion-row>
+      <ion-col col-auto>Stelling 1</ion-col>
+      <ion-col>{{this.m4p22tekst}}</ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col col-auto>Stelling 2</ion-col>
+      <ion-col>{{this.m4p23tekst}}</ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col col-auto>Stelling 3</ion-col>
+      <ion-col>{{this.m4p24tekst}}</ion-col>
+    </ion-row>
+
+  </ion-grid>
+
+  <h2>Lock-up familiaire aandeelhouders</h2>
+
+  <p>Wij hebben u de volgende stellingen voorgelegd:</p>
+
+  <ion-grid>
+    <ion-row>
+      <ion-col col-auto>Stelling 1</ion-col>
+      <ion-col>Ik vind het belangrijk dat een familair aandeelhouder het aandelenbelang kan aanbieden op het moment dat hij/zij dat wenst.</ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col col-auto>Stelling 2</ion-col>
+      <ion-col>Ik vind het belangrijk dat het familiebedrijf voldoende financiële reserves heeft om een familiair aandeelhouder uit te kopen.</ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col col-auto>Stelling 3</ion-col>
+      <ion-col>Ik vind het belangrijk dat familiare aandeelhouders gebruik kunnen maken van een rekening-courantverhouding met het familiebedrijf.</ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col col-auto>Stelling 4</ion-col>
+      <ion-col>Ik vind het belangrijk dat afspraken worden gemaakt over de maximale hoogte van deze rekening-courantverhouding.</ion-col>
+    </ion-row>
+
+
+  </ion-grid>
+  <p>In onderstaande grafiek staat uw mening weergegeven over deze stellingen. -100 betekent dat u het volledig oneens bent met de stelling, 100 betekent dat u het volledig eens bent met de stelling. </p>
+
+  <div style="display: block">
+    <canvas #barCanvas6></canvas>
+  </div>
+  <p>U plaatste de volgende opmerkingen bij de stellingen.</p>
+  <ion-grid>
+    <ion-row>
+      <ion-col col-auto>Stelling 1</ion-col>
+      <ion-col>{{this.m4p25tekst}}</ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col col-auto>Stelling 2</ion-col>
+      <ion-col>{{this.m4p26tekst}}</ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col col-auto>Stelling 3</ion-col>
+      <ion-col>{{this.m4p27tekst}}</ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col col-auto>Stelling 4</ion-col>
+      <ion-col>{{this.m4p28tekst}}</ion-col>
+    </ion-row>
+
+  </ion-grid>
+
+  <h2>Niet-familiaire aandeelhouders</h2>
+
+  <p>Wij hebben u de volgende stellingen voorgelegd:</p>
+
+  <ion-grid>
+    <ion-row>
+      <ion-col col-auto>Stelling 1</ion-col>
+      <ion-col>Ik vind het belangrijk dat niet-familiaire aandeelhouders geen zeggenschap hebben in het familiebedrijf.</ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col col-auto>Stelling 2</ion-col>
+      <ion-col>Ik vind het belangrijk dat niet-familiaire managers en medewerkers te allen tijde het aandelenbelang aanbieden aan het familiebedrijf als hun actieve rol in het familiebedrijf stopt.</ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col col-auto>Stelling 3</ion-col>
+      <ion-col>Ik vind het belangrijk dat de aandelen van niet familiaire managers en medewerkers bij hun overlijden aan het familiebedrijf worden aangeboden.</ion-col>
+    </ion-row>
+
+
+  </ion-grid>
+  <p>In onderstaande grafiek staat uw mening weergegeven over deze stellingen. -100 betekent dat u het volledig oneens bent met de stelling, 100 betekent dat u het volledig eens bent met de stelling. </p>
+
+  <div style="display: block">
+    <canvas #barCanvas7></canvas>
+  </div>
+  <p>U plaatste de volgende opmerkingen bij de stellingen.</p>
+  <ion-grid>
+    <ion-row>
+      <ion-col col-auto>Stelling 1</ion-col>
+      <ion-col>{{this.m4p29tekst}}</ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col col-auto>Stelling 2</ion-col>
+      <ion-col>{{this.m4p30tekst}}</ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col col-auto>Stelling 3</ion-col>
+      <ion-col>{{this.m4p31tekst}}</ion-col>
+    </ion-row>
+
+  </ion-grid>
+
+
+  <h2>Financiële informatie</h2>
+
+  <p>Wij hebben u de volgende stellingen voorgelegd:</p>
+
+  <ion-grid>
+    <ion-row>
+      <ion-col col-auto>Stelling 1</ion-col>
+      <ion-col>Ik vind het belangrijk dat financiële informatie aan alle familieleden (ook niet aandeelhouders) beschikbaar wordt gesteld.</ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col col-auto>Stelling 2</ion-col>
+      <ion-col>Ik vind het belangrijk dat financiële informatie alleen beschikbaar wordt gesteld aan de familiaire aandeelhouders.</ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col col-auto>Stelling 3</ion-col>
+      <ion-col>Ik vind het belangrijk dat financiële informatie alleen beschikbaar aan familiaire aandeelhouders wordt gesteld tijdens officieel overleg.</ion-col>
+    </ion-row>
+
+
+  </ion-grid>
+  <p>In onderstaande grafiek staat uw mening weergegeven over deze stellingen. -100 betekent dat u het volledig oneens bent met de stelling, 100 betekent dat u het volledig eens bent met de stelling. </p>
+
+  <div style="display: block">
+    <canvas #barCanvas8></canvas>
+  </div>
+  <p>U plaatste de volgende opmerkingen bij de stellingen.</p>
+  <ion-grid>
+    <ion-row>
+      <ion-col col-auto>Stelling 1</ion-col>
+      <ion-col>{{this.m4p32tekst}}</ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col col-auto>Stelling 2</ion-col>
+      <ion-col>{{this.m4p33tekst}}</ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col col-auto>Stelling 3</ion-col>
+      <ion-col>{{this.m4p34tekst}}</ion-col>
+    </ion-row>
+
+  </ion-grid>
+  <div class="spacer" style="width: 320px; height: 25px;"></div>
+</div>
+<voettekst></voettekst>
+</ion-content>

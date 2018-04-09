@@ -1,0 +1,47 @@
+
+<ion-header>
+
+  <ion-header>
+    <ion-toolbar color="danger">
+      <progress-bar [progress]="loadProgress"></progress-bar>
+    </ion-toolbar>
+  </ion-header>
+
+</ion-header>
+
+<ion-content>
+  <div padding>
+    <div class="spacer" style="width: 320px; height: 40px;"></div>
+
+    <h1>Lock-up familiaire aandeelhouders</h1>
+
+
+    <p>Met het aandelenbezit in het familiebedrijf ligt een deel van het vermogen van de familiaire aandeelhouder vast. Er kunnen echter momenten zijn waarop deze aandeelhouder zijn aandelenbezit wil vrijmaken, bijvoorbeeld door (gedeeltelijke) verkoop. Wij vragen uw mening aan de hand van 4 stellingen.</p>
+
+
+
+
+    <ion-grid>
+      <ion-row>
+        <ion-col col-2></ion-col>
+        <ion-col col-8 text-center>
+          <button ion-button color="kop" block round medium (click)="verder()"> Verder</button>
+        </ion-col>
+      </ion-row>
+      <div class="spacer" style="width: 320px; height: 25px;"></div>
+      <ion-row>
+        <ion-col col-2></ion-col>
+        <ion-col col-4 text-center>
+          <button ion-button color="danger" block round small (click)="stoppen()" > Stoppen</button>
+        </ion-col>
+        <ion-col col-4 text-center>
+
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+
+  </div>
+  <voettekst></voettekst>
+
+
+</ion-content>

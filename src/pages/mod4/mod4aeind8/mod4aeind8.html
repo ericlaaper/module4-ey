@@ -1,0 +1,93 @@
+<ion-header>
+  <ion-toolbar color="danger">
+    <progress-bar [progress]="loadProgress"></progress-bar>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div padding>
+
+    <div class="spacer" style="width: 320px; height: 12px;"></div>
+
+    <h2>Einde van dit onderdeel Financiële informatie</h2>
+    <p>U hebt de vragen van dit onderdeel afgerond. Met de knop afronden kunt u dit onderdeel afsluiten. U kunt ook ter controle de vragen uit dit onderdeel nogmaals doornemen en eventuele wijzigingen doorvoeren met de knop Aanpassen.</p>
+    <p>In het menu op de homepage treft u het onderdeel rapportage aan. Hier treft u een complete rapportage van alle stellingen en uw antwoorden.</p>
+
+
+
+
+
+    <div class="spacer" style="width: 320px; height: 5px;"></div>
+
+
+
+    <h2>Resultaat</h2>
+
+    <p>Wij hebben u de volgende stellingen voorgelegd:</p>
+
+    <ion-grid>
+      <ion-row>
+        <ion-col col-auto>Stelling 1</ion-col>
+        <ion-col>Ik vind het belangrijk dat financiële informatie aan alle familieleden (ook niet aandeelhouders) beschikbaar wordt gesteld.</ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col col-auto>Stelling 2</ion-col>
+        <ion-col>Ik vind het belangrijk dat financiële informatie alleen beschikbaar wordt gesteld aan de familiaire aandeelhouders.</ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col col-auto>Stelling 3</ion-col>
+        <ion-col>Ik vind het belangrijk dat financiële informatie alleen beschikbaar aan familiaire aandeelhouders wordt gesteld tijdens officieel overleg.</ion-col>
+      </ion-row>
+
+
+    </ion-grid>
+    <p>In onderstaande grafiek staat uw mening weergegeven over deze stellingen. -100 betekent dat u het volledig oneens bent met de stelling, 100 betekent dat u het volledig eens bent met de stelling. </p>
+
+    <div style="display: block">
+      <canvas #barCanvas></canvas>
+    </div>
+    <p>U plaatste de volgende opmerkingen bij de stellingen.</p>
+    <ion-grid>
+      <ion-row>
+        <ion-col col-auto>Stelling 1</ion-col>
+        <ion-col>{{this.m4p32tekst}}</ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col col-auto>Stelling 2</ion-col>
+        <ion-col>{{this.m4p33tekst}}</ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col col-auto>Stelling 3</ion-col>
+        <ion-col>{{this.m4p34tekst}}</ion-col>
+      </ion-row>
+
+    </ion-grid>
+
+
+
+
+    <ion-grid>
+      <ion-row>
+        <ion-col col-2></ion-col>
+        <ion-col col-8 text-center>
+          <h3>Afronden</h3>
+          <p ion-text>U hebt alle onderdelen ingevuld en kunt de module afonden.</p>
+          <button ion-button block round medium (click)="verder()">Afronden</button>
+        </ion-col>
+      </ion-row>
+
+      <div class="spacer" style="width: 320px; height: 25px;"></div>
+
+      <ion-row>
+        <ion-col col-2></ion-col>
+        <ion-col col-8 text-center>
+          <h3>Wijzigingen </h3>
+          <p ion-text>Neem de laatste stellingen nogmaals door en voer eventuele wijzigingen door.</p>
+          <button ion-button block round medium (click)="aanpassen()"> Aanpassen</button>
+        </ion-col>
+      </ion-row>
+
+    </ion-grid>
+  </div>
+  <voettekst></voettekst>
+</ion-content>

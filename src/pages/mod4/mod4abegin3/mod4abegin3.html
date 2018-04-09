@@ -1,0 +1,48 @@
+
+<ion-header>
+
+  <ion-header>
+    <ion-toolbar color="danger">
+      <progress-bar [progress]="loadProgress"></progress-bar>
+    </ion-toolbar>
+  </ion-header>
+
+</ion-header>
+
+<ion-content>
+  <div padding>
+    <div class="spacer" style="width: 320px; height: 40px;"></div>
+
+    <h1>Familiair aandeelhouderschap behouden en doorgeven</h1>
+
+
+    <p>Familiaire aandeelhouders kunnen in principe zelfstandig over de aandelen beschikken. Ze kunnen ze bijvoorbeeld verkopen aan een niet-familielid of schenken aan (klein)kinderen. Zonder verdere afspraken hierover kan het aandelenbezit dus versplinterd raken over veel partijen.</p>
+    <p>Er volgen nu een aantal stellingen, waar u uw mening over kunt vastleggen.</p>
+
+
+    <p>Dit onderdeel bestaat uit 7 vragen.</p>
+
+    <ion-grid>
+      <ion-row>
+        <ion-col col-2></ion-col>
+        <ion-col col-8 text-center>
+          <button ion-button color="kop" block round medium (click)="verder()"> Verder</button>
+        </ion-col>
+      </ion-row>
+      <div class="spacer" style="width: 320px; height: 25px;"></div>
+      <ion-row>
+        <ion-col col-2></ion-col>
+        <ion-col col-4 text-center>
+          <button ion-button color="danger" block round small (click)="stoppen()" > Stoppen</button>
+        </ion-col>
+        <ion-col col-4 text-center>
+
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+
+  </div>
+  <voettekst></voettekst>
+
+
+</ion-content>

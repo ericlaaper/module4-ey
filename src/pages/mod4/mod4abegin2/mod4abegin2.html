@@ -1,0 +1,48 @@
+
+<ion-header>
+
+  <ion-header>
+    <ion-toolbar color="danger">
+      <progress-bar [progress]="loadProgress"></progress-bar>
+    </ion-toolbar>
+  </ion-header>
+
+</ion-header>
+
+<ion-content>
+  <div padding>
+    <div class="spacer" style="width: 320px; height: 40px;"></div>
+
+    <h1>Wanneer familiair aandeelhouder worden</h1>
+
+
+    <p>Als een familielid aandeelhouder wordt, brengt dat rechten en verplichtingen met zich mee. Het vraagt een hoge mate van betrokkenheid en verantwoordelijkheid om aandeelhouder te zijn. Dat maakt ook dat de afweging van aandeelhouderschap zorgvuldig gedaan moet worden. Het moment waarop een familielid in staat wordt gesteld om aandeelhouder te worden speelt hierbij een rol. </p>
+    <p>Wij vragen uw mening aan de hand van 4 stellingen.</p>
+
+
+
+
+    <ion-grid>
+      <ion-row>
+        <ion-col col-2></ion-col>
+        <ion-col col-8 text-center>
+          <button ion-button color="kop" block round medium (click)="verder()"> Verder</button>
+        </ion-col>
+      </ion-row>
+      <div class="spacer" style="width: 320px; height: 25px;"></div>
+      <ion-row>
+        <ion-col col-2></ion-col>
+        <ion-col col-4 text-center>
+          <button ion-button color="danger" block round small (click)="stoppen()" > Stoppen</button>
+        </ion-col>
+        <ion-col col-4 text-center>
+
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+
+  </div>
+  <voettekst></voettekst>
+
+
+</ion-content>

@@ -1,0 +1,48 @@
+
+<ion-header>
+
+  <ion-header>
+    <ion-toolbar color="danger">
+      <progress-bar [progress]="loadProgress"></progress-bar>
+    </ion-toolbar>
+  </ion-header>
+
+</ion-header>
+
+<ion-content>
+  <div padding>
+    <div class="spacer" style="width: 320px; height: 40px;"></div>
+
+    <h1>Procedure aan/verkooptransacties</h1>
+
+
+    <p>Aan het eigendom in het familiebedrijf zit ook verbonden dat er momenten zijn waarop het eigendom in andere handen binnen de familie overgaat. Bijvoorbeeld bij opvolging of bij overlijden. Waar aandelen in andere handen overgaan is sprake van een aankoop/verkooptransactie. Vanuit de familie kunnen over deze aan/verkooptransacties verdere afspraken verbonden worden. </p>
+    <p>Wij vragen uw mening aan de hand van 3 stellingen.</p>
+
+
+
+
+    <ion-grid>
+      <ion-row>
+        <ion-col col-2></ion-col>
+        <ion-col col-8 text-center>
+          <button ion-button color="kop" block round medium (click)="verder()"> Verder</button>
+        </ion-col>
+      </ion-row>
+      <div class="spacer" style="width: 320px; height: 25px;"></div>
+      <ion-row>
+        <ion-col col-2></ion-col>
+        <ion-col col-4 text-center>
+          <button ion-button color="danger" block round small (click)="stoppen()" > Stoppen</button>
+        </ion-col>
+        <ion-col col-4 text-center>
+
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+
+  </div>
+  <voettekst></voettekst>
+
+
+</ion-content>

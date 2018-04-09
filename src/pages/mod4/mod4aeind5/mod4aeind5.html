@@ -1,0 +1,99 @@
+<ion-header>
+  <ion-toolbar color="danger">
+    <progress-bar [progress]="loadProgress"></progress-bar>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div padding>
+
+    <div class="spacer" style="width: 320px; height: 12px;"></div>
+
+    <h2>Einde onderdeel Procedure aan/verkooptransacties</h2>
+    <p>U bent aan het einde gekomen van dit onderdeel.</p>
+    <p>U kunt direct doorgaan naar het volgende onderdeel. Gebruik hiervoor de knop verder. </p>
+    <p>U kunt er ook voor kiezen om eerst nogmaals de vragen en uw antwoorden te bekijken en later verder te gaan. Gebruik dan de knop aanpassen.</p>
+    <p>Tenslotte kunt u er voor kiezen om nu te stoppen en later verder te gaan.</p>
+
+
+    <div class="spacer" style="width: 320px; height: 5px;"></div>
+
+
+
+    <h2>Resultaat</h2>
+
+    <p>Wij hebben u de volgende stellingen voorgelegd:</p>
+
+    <ion-grid>
+      <ion-row>
+        <ion-col col-auto>Stelling 1</ion-col>
+        <ion-col>Ik vind het belangrijk dat bij aan- en verkooptransacties sprake is van een faire prijs op basis van een extern opgesteld waarderingsrapport.</ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col col-auto>Stelling 2</ion-col>
+        <ion-col>Ik vind het belangrijk dat een toetredend familiair aandeelhouder kan rekenen op financiering vanuit het familiebedrijf, zodat maximaal 50% van de koopsom extern gefinancierd dient te worden.</ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col col-auto>Stelling 3</ion-col>
+        <ion-col>Ik vind het belangrijk dat een uittredend familiair aandeelhouder direct kan beschikken over de volledige opbrengst van de verkoop.</ion-col>
+      </ion-row>
+
+
+    </ion-grid>
+    <p>In onderstaande grafiek staat uw mening weergegeven over deze stellingen. -100 betekent dat u het volledig oneens bent met de stelling, 100 betekent dat u het volledig eens bent met de stelling. </p>
+
+    <div style="display: block">
+      <canvas #barCanvas></canvas>
+    </div>
+    <p>U plaatste de volgende opmerkingen bij de stellingen.</p>
+    <ion-grid>
+      <ion-row>
+        <ion-col col-auto>Stelling 1</ion-col>
+        <ion-col>{{this.m4p22tekst}}</ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col col-auto>Stelling 2</ion-col>
+        <ion-col>{{this.m4p23tekst}}</ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col col-auto>Stelling 3</ion-col>
+        <ion-col>{{this.m4p24tekst}}</ion-col>
+      </ion-row>
+
+    </ion-grid>
+
+
+
+
+    <ion-grid>
+      <ion-row>
+        <ion-col col-2></ion-col>
+        <ion-col col-8 text-center>
+          <h3>Verder</h3>
+          <p ion-text>Ga direct door naar het volgende onderdeel</p>
+          <button ion-button block round medium (click)="verder()"> Verder</button>
+        </ion-col>
+      </ion-row>
+
+      <div class="spacer" style="width: 320px; height: 25px;"></div>
+
+      <ion-row>
+        <ion-col col-2></ion-col>
+        <ion-col col-8 text-center>
+          <h3>Wijzigingen </h3>
+          <p ion-text>Neem de laatste stellingen nogmaals door en voer eventuele wijzigingen door.</p>
+          <button ion-button block round medium (click)="aanpassen()"> Aanpassen</button>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col col-2></ion-col>
+        <ion-col col-8 text-center>
+          <h3>Stoppen</h3>
+          <p ion-text>Stop met invullen en ga een volgende keer verder.</p>
+          <button ion-button color="danger"block round medium (click)="stoppen()">Stoppen</button>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+  <voettekst></voettekst>
+</ion-content>

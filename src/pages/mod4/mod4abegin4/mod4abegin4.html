@@ -1,0 +1,48 @@
+
+<ion-header>
+
+  <ion-header>
+    <ion-toolbar color="danger">
+      <progress-bar [progress]="loadProgress"></progress-bar>
+    </ion-toolbar>
+  </ion-header>
+
+</ion-header>
+
+<ion-content>
+  <div padding>
+    <div class="spacer" style="width: 320px; height: 40px;"></div>
+
+    <h1>Zeggenschap familiaire aandeelhouders</h1>
+
+
+    <p>Aan het eigendom zit zowel het economisch als het juridisch eigendom verbonden. Het juridisch eigendom vertaalt zich in mee mogen beslissen over het familiebedrijf. Dit komt tot uiting in de algemene vergadering van aandeelhouders. Men noemt dit ook wel zeggenschap. Over de wijze waarop de familie de zeggenschap van de aandeelhouders vorm wil geven, treft u onderstaand 4 stellingen aan.</p>
+    <p>Over deze stellingen vragen wij u uw mening te geven.</p>
+
+
+
+
+    <ion-grid>
+      <ion-row>
+        <ion-col col-2></ion-col>
+        <ion-col col-8 text-center>
+          <button ion-button color="kop" block round medium (click)="verder()"> Verder</button>
+        </ion-col>
+      </ion-row>
+      <div class="spacer" style="width: 320px; height: 25px;"></div>
+      <ion-row>
+        <ion-col col-2></ion-col>
+        <ion-col col-4 text-center>
+          <button ion-button color="danger" block round small (click)="stoppen()" > Stoppen</button>
+        </ion-col>
+        <ion-col col-4 text-center>
+
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+
+  </div>
+  <voettekst></voettekst>
+
+
+</ion-content>
