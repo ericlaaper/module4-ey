@@ -229,20 +229,20 @@ export class ResultaatPage {
           label: 'uw mening',
           data: [this.m4p1data,this.m4p2data,this.m4p3data,this.m4p4data,this.m4p5data,this.m4p6data],
           backgroundColor: [
-            '#006ab4',
-            '#006ab4',
-            '#006ab4',
-            '#006ab4',
-            '#006ab4',
-            '#006ab4'
+            '#FFE600',
+            '#FFE600',
+            '#FFE600',
+            '#FFE600',
+            '#FFE600',
+            '#FFE600'
           ],
           borderColor: [
-            '#006ab4',
-            '#006ab4',
-            '#006ab4',
-            '#006ab4',
-            '#006ab4',
-            '#006ab4'
+            '#FFE600',
+            '#FFE600',
+            '#FFE600',
+            '#FFE600',
+            '#FFE600',
+            '#FFE600'
           ],
           borderWidth: 1
         }]
@@ -276,20 +276,20 @@ export class ResultaatPage {
           label: 'uw mening',
           data: [this.m4p7data,this.m4p8data,this.m4p9data,this.m4p10data],
           backgroundColor: [
-            '#006ab4',
-            '#006ab4',
-            '#006ab4',
-            '#006ab4',
-            '#006ab4',
-            '#006ab4'
+            '#FFE600',
+            '#FFE600',
+            '#FFE600',
+            '#FFE600',
+            '#FFE600',
+            '#FFE600'
           ],
           borderColor: [
-            '#006ab4',
-            '#006ab4',
-            '#006ab4',
-            '#006ab4',
-            '#006ab4',
-            '#006ab4'
+            '#FFE600',
+            '#FFE600',
+            '#FFE600',
+            '#FFE600',
+            '#FFE600',
+            '#FFE600'
           ],
           borderWidth: 1
         }]
@@ -323,20 +323,20 @@ export class ResultaatPage {
           label: 'uw mening',
           data: [this.m4p11data,this.m4p12data,this.m4p13data,this.m4p14data,this.m4p15data,this.m4p16data,this.m4p17data],
           backgroundColor: [
-            '#006ab4',
-            '#006ab4',
-            '#006ab4',
-            '#006ab4',
-            '#006ab4',
-            '#006ab4'
+            '#FFE600',
+            '#FFE600',
+            '#FFE600',
+            '#FFE600',
+            '#FFE600',
+            '#FFE600'
           ],
           borderColor: [
-            '#006ab4',
-            '#006ab4',
-            '#006ab4',
-            '#006ab4',
-            '#006ab4',
-            '#006ab4'
+            '#FFE600',
+            '#FFE600',
+            '#FFE600',
+            '#FFE600',
+            '#FFE600',
+            '#FFE600'
           ],
           borderWidth: 1
         }]
@@ -370,20 +370,20 @@ export class ResultaatPage {
           label: 'uw mening',
           data: [this.m4p18data,this.m4p19data,this.m4p20data,this.m4p21data],
           backgroundColor: [
-            '#006ab4',
-            '#006ab4',
-            '#006ab4',
-            '#006ab4',
-            '#006ab4',
-            '#006ab4'
+            '#FFE600',
+            '#FFE600',
+            '#FFE600',
+            '#FFE600',
+            '#FFE600',
+            '#FFE600'
           ],
           borderColor: [
-            '#006ab4',
-            '#006ab4',
-            '#006ab4',
-            '#006ab4',
-            '#006ab4',
-            '#006ab4'
+            '#FFE600',
+            '#FFE600',
+            '#FFE600',
+            '#FFE600',
+            '#FFE600',
+            '#FFE600'
           ],
           borderWidth: 1
         }]
@@ -417,20 +417,20 @@ export class ResultaatPage {
           label: 'uw mening',
           data: [this.m4p22data,this.m4p23data,this.m4p24data],
           backgroundColor: [
-            '#006ab4',
-            '#006ab4',
-            '#006ab4',
-            '#006ab4',
-            '#006ab4',
-            '#006ab4'
+            '#FFE600',
+            '#FFE600',
+            '#FFE600',
+            '#FFE600',
+            '#FFE600',
+            '#FFE600'
           ],
           borderColor: [
-            '#006ab4',
-            '#006ab4',
-            '#006ab4',
-            '#006ab4',
-            '#006ab4',
-            '#006ab4'
+            '#FFE600',
+            '#FFE600',
+            '#FFE600',
+            '#FFE600',
+            '#FFE600',
+            '#FFE600'
           ],
           borderWidth: 1
         }]
@@ -464,20 +464,20 @@ export class ResultaatPage {
           label: 'uw mening',
           data: [this.m4p25data,this.m4p26data,this.m4p27data,this.m4p28data],
           backgroundColor: [
-            '#006ab4',
-            '#006ab4',
-            '#006ab4',
-            '#006ab4',
-            '#006ab4',
-            '#006ab4'
+            '#FFE600',
+            '#FFE600',
+            '#FFE600',
+            '#FFE600',
+            '#FFE600',
+            '#FFE600'
           ],
           borderColor: [
-            '#006ab4',
-            '#006ab4',
-            '#006ab4',
-            '#006ab4',
-            '#006ab4',
-            '#006ab4'
+            '#FFE600',
+            '#FFE600',
+            '#FFE600',
+            '#FFE600',
+            '#FFE600',
+            '#FFE600'
           ],
           borderWidth: 1
         }]
@@ -511,20 +511,20 @@ export class ResultaatPage {
           label: 'uw mening',
           data: [this.m4p29data,this.m4p30data,this.m4p31data],
           backgroundColor: [
-            '#006ab4',
-            '#006ab4',
-            '#006ab4',
-            '#006ab4',
-            '#006ab4',
-            '#006ab4'
+            '#FFE600',
+            '#FFE600',
+            '#FFE600',
+            '#FFE600',
+            '#FFE600',
+            '#FFE600'
           ],
           borderColor: [
-            '#006ab4',
-            '#006ab4',
-            '#006ab4',
-            '#006ab4',
-            '#006ab4',
-            '#006ab4'
+            '#FFE600',
+            '#FFE600',
+            '#FFE600',
+            '#FFE600',
+            '#FFE600',
+            '#FFE600'
           ],
           borderWidth: 1
         }]
@@ -558,20 +558,20 @@ export class ResultaatPage {
           label: 'uw mening',
           data: [this.m4p32data,this.m4p33data,this.m4p34data],
           backgroundColor: [
-            '#006ab4',
-            '#006ab4',
-            '#006ab4',
-            '#006ab4',
-            '#006ab4',
-            '#006ab4'
+            '#FFE600',
+            '#FFE600',
+            '#FFE600',
+            '#FFE600',
+            '#FFE600',
+            '#FFE600'
           ],
           borderColor: [
-            '#006ab4',
-            '#006ab4',
-            '#006ab4',
-            '#006ab4',
-            '#006ab4',
-            '#006ab4'
+            '#FFE600',
+            '#FFE600',
+            '#FFE600',
+            '#FFE600',
+            '#FFE600',
+            '#FFE600'
           ],
           borderWidth: 1
         }]

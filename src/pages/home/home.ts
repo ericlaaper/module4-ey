@@ -16,4 +16,7 @@ export class HomePage {
     console.log('ionViewDidLoad HomePage');
   }
 
+  begin(){
+    this.navCtrl.setRoot('Mod4astartPage')
+  }
 }

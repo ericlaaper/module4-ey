@@ -91,20 +91,20 @@ export class Mod4aeind2Page {
           label: 'uw mening',
           data: [this.m4p7data,this.m4p8data,this.m4p9data,this.m4p10data],
           backgroundColor: [
-            '#006ab4',
-            '#006ab4',
-            '#006ab4',
-            '#006ab4',
-            '#006ab4',
-            '#006ab4'
+            '#FFE600',
+            '#FFE600',
+            '#FFE600',
+            '#FFE600',
+            '#FFE600',
+            '#FFE600'
           ],
           borderColor: [
-            '#006ab4',
-            '#006ab4',
-            '#006ab4',
-            '#006ab4',
-            '#006ab4',
-            '#006ab4'
+            '#FFE600',
+            '#FFE600',
+            '#FFE600',
+            '#FFE600',
+            '#FFE600',
+            '#FFE600'
           ],
           borderWidth: 1
         }]
